@@ -1,0 +1,29 @@
+{
+  "name": "@paultaku/angular-schematics",
+  "version": "0.0.2-beta",
+  "description": "A blank schematics",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "jest",
+    "test:watch": "test --watch"
+  },
+  "keywords": [
+    "schematics"
+  ],
+  "author": "paultaku",
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^7.1.3",
+    "@angular-devkit/schematics": "^7.1.3",
+    "@types/jasmine": "^2.6.0",
+    "@types/node": "^8.0.31",
+    "jasmine": "^2.8.0",
+    "typescript": "~3.1.6"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "jest-preset-angular": "^6.0.2"
+  }
+}
