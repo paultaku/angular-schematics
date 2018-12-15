@@ -1,9 +1,6 @@
 {
   "compilerOptions": {
     "baseUrl": "tsconfig",
-    "paths": {
-      "@/*": ["src/*"],
-    },
     "lib": [
       "es2018",
       "dom"
