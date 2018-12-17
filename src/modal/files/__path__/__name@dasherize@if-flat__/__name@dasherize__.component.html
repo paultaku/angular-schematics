@@ -1,0 +1,13 @@
+<ng-template #modal>
+  <div class="modal">
+    <div class="title">
+      {{ modalEvent.title }}
+    </div>
+    <div class="body">
+      {{ modalEvent.content }}
+    </div>
+    <div class="footer">
+      <button class="button cancel" type="button" (click)="close()">Close</button>
+    </div>
+  </div>
+</ng-template>

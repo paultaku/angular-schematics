@@ -10,6 +10,11 @@
       "description": "Create a component with a address form",
       "factory": "./address-form/index",
       "schema": "./address-form/schema.json"
+    },
+    "modal": {
+      "description": "A blank schematic.",
+      "factory": "./modal/index#modal",
+      "schema": "./modal/schema.json"
     }
   }
 }

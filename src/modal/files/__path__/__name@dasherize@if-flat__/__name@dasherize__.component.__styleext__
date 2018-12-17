@@ -1,0 +1,15 @@
+.modal {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+}
+
+.modal > .title, .modal > .body, .modal > .footer {
+  padding: 4px 8px;
+}
+
+button.button {
+  padding: 4px 8px;
+}
