@@ -8,8 +8,8 @@ export function modal(options: Schema): Rule {
   console.log('modal', options);
   return chain([
     buildComponent({...options}, {
-      template: './files/__path__/__name@dasherize@if-flat__/__name@dasherize__.component.html',
-      stylesheet: './files/__path__/__name@dasherize@if-flat__/__name@dasherize__.component.__styleext__',
+      template: './__path__/__name@dasherize@if-flat__/__name@dasherize__.component.html',
+      stylesheet: './__path__/__name@dasherize@if-flat__/__name@dasherize__.component.__styleext__',
     }),
     options.skipImport ? noop() : addDependencyToModule(options)
   ]);
